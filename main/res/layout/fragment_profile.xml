@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <Switch
+        android:id="@+id/switchReminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timeTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/switchReminders"
+        app:layout_constraintTop_toBottomOf="@+id/switchReminders" />
+
+    <Button
+        android:id="@+id/changeTimeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_bedtime"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/timeTextField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/timeTextField"
+        app:layout_constraintTop_toTopOf="@+id/timeTextField" />
+
+    <Spinner
+        android:id="@+id/spinnerPracticeDuration"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewPracticeDuration"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPracticeDuration" />
+
+    <Spinner
+        android:id="@+id/spinnerRestDuration"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewRestDuration"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRestDuration" />
+
+    <TextView
+        android:id="@+id/textViewPracticeDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/change_practice_duration"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changeTimeButton" />
+
+    <TextView
+        android:id="@+id/textViewRestDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/change_rest_duration"
+        app:layout_constraintStart_toStartOf="@+id/spinnerPracticeDuration"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerPracticeDuration" />
+
+    <Button
+        android:id="@+id/changePasswordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/profile_change_password_button"
+        app:layout_constraintStart_toStartOf="@+id/spinnerRestDuration"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerRestDuration" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

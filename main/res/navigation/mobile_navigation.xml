@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.revalidatieapp.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_information"
+        android:name="com.example.revalidatieapp.ui.information.FoldersFragment"
+        android:label="@string/title_folders"
+        tools:layout="@layout/fragment_folders" />
+
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.example.revalidatieapp.ui.messages.MessagesFragment"
+        android:label="@string/title_messages"
+        tools:layout="@layout/fragment_messages" />
+
+    <fragment
+        android:id="@+id/navigation_agenda"
+        android:name="com.example.revalidatieapp.ui.agenda.AgendaFragment"
+        android:label="@string/title_agenda"
+        tools:layout="@layout/fragment_agenda" />
+
+    <fragment
+        android:id="@+id/navigation_exercise"
+        android:name="com.example.revalidatieapp.ui.exercise.ExercisesFragment"
+        android:label="@string/title_exercises"
+        tools:layout="@layout/fragment_exercises" />
+
+    <fragment
+        android:id="@+id/fragment_exercise"
+        android:name="com.example.revalidatieapp.ui.exercise.ExerciseFragment"
+        android:label="@string/title_exercise"
+        tools:layout="@layout/fragment_exercise" />
+
+    <fragment
+        android:id="@+id/appbar_profile"
+        android:name="com.example.revalidatieapp.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/fragment_message"
+        android:name="com.example.revalidatieapp.ui.messages.MessageFragment"
+        android:label="@string/title_message"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/fragment_folder"
+        android:name="com.example.revalidatieapp.ui.information.FolderFragment"
+        android:label="@string/title_folder"
+        tools:layout="@layout/fragment_folder" />
+
+    <fragment
+        android:id="@+id/fragment_create_notification"
+        android:name="com.example.revalidatieapp.ui.dashboard.CreateNotificationFragment"
+        android:label="@string/title_create_notification"
+        tools:layout="@layout/fragment_create_notification" />
+
+    <fragment
+        android:id="@+id/fragment_practice_planning"
+        android:name="com.example.revalidatieapp.ui.agenda.PlanningFragment"
+        android:label="@string/title_practice_planning"
+        tools:layout="@layout/fragment_planning" />
+
+    <fragment
+        android:id="@+id/fragment_change_password"
+        android:name="com.example.revalidatieapp.ui.profile.ChangePasswordFragment"
+        android:label="@string/title_change_password"
+        tools:layout="@layout/fragment_change_password" />
+
+</navigation>

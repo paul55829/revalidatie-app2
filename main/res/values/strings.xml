@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">revalidatie app</string>
+    <string name="title_activity_information">information</string>
+    <string name="title_information">Informatie</string>
+    <string name="title_messages">Berichten</string>
+    <string name="title_agenda">Agenda</string>
+    <string name="title_profile">Profiel</string>
+    <string name="title_message">Bericht</string>
+    <string name="title_activity_navigation">Navigatie</string>
+    <string name="title_folders">Algemene behandelinformatie</string>
+    <string name="title_folder">Informatie folder</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_create_notification">Nieuwe aantekening</string>
+    <string name="title_practice_planning">Oefeningen-agenda</string>
+    <string name="title_change_password">Verander Wachtwoord</string>
+    <string name="title_exercises">Oefeningen</string>
+    <string name="title_exercise">Oefening</string>
+    <string name="email">Email</string>
+    <string name="password">Wachtwoord</string>
+    <string name="login">Login</string>
+    <string name="invalid_login_credentials">onjuist email adress of wachtwoord</string>
+    <string name="notification_on">Meldingen zijn ingeschakeld</string>
+    <string name="notification_off">Meldingen zijn uitgeschakeld</string>
+    <string name="change_bedtime">Verander tijd</string>
+    <string name="change_practice_duration">Hoeveel minuten doet u over de oefeningen?</string>
+    <string name="change_rest_duration">Hoeveel uur moet er tussen de oefeningen zitten?</string>
+    <string name="dashboard_greeting">Goedemorgen</string>
+    <string name="dashboard_goals">Uw einddoelen:</string>
+    <string name="dashboard_make_note">Maak een aantekening</string>
+    <string name="dashboard_no_new_messages">U heeft geen nieuwe berichten</string>
+    <string name="notification_create_notification">Type hier uw aantekening</string>
+    <string name="notification_create_title">Type hier de titel van uw aantekening</string>
+    <string name="saveNoteButton_text">Opslaan</string>
+    <string name="agenda_create_note">Maak een aantekening</string>
+    <string name="agenda_see_planning">Bekijk uw oefeningen-agenda</string>
+    <string name="notification_title">Het is tijd om te beginnen met oefenen</string>
+    <string name="dashboard_start_practice">Begin inplannen</string>
+    <string name="profile_change_password_button">Wijzig wachtwoord</string>
+    <string name="profile_change_password_textview">Wachtwoord wijzigen</string>
+    <string name="profile_hint_old_password">Oud wachtwoord</string>
+    <string name="profile_hint_new_password">Nieuw wachtwoord</string>
+    <string name="profile_hint_repeat_new_password">Herhaal nieuw wachtwoord</string>
+    <string name="profile_error_wrong_password">Onjuist wachtwoord</string>
+    <string name="profile_error_different_passwords">Wachtwoorden komen niet overeen</string>
+    <string name="profile_error_too_short_password">Wachtwoord moet minstens 6 tekens lang zijn</string>
+    <string name="profile_password_is_changed">Wachtwoord is veranderd</string>
+
+    <string name="profile_page_default_hour">10</string>
+    <string name="profile_page_default_minute">00</string>
+    <bool name="profile_page_default_receive_reminders">true</bool>
+
+    <string-array name="spinner_practice_duration">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="spinner_rest_duration">
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
